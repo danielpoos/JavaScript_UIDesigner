@@ -9,7 +9,7 @@ function init() {
 
 function inputa() {
     let minta = document.getElementById('minta').value;
-    if (minta == null || minta == "" || minta == " " || minta == "  ") {
+    if (minta == null || minta == undefined || !minta.trim()) {
         document.getElementById('mintaerror').innerHTML = "Nem lehet üres a mező";
     }else{
     document.getElementById('preview').innerHTML = minta;
