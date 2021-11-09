@@ -1,0 +1,37 @@
+form{
+    padding: 3px;
+    margin: 10px 33%;
+    border-radius: 5px;
+    background-color: rgb(215, 255, 255);
+}
+#prediv{
+    margin: 10px 33%;
+}
+form *{
+    margin: 5px;
+}
+.alap{
+    font-size :12pt;
+    color : black;
+    background-color : white;
+}
+h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.error{
+    color: red;
+}
+form div{
+    width:100%;
+}
+div input{
+    width:92%;
+}
+
+#color,#bgcolor {
+    width:95%;
+}
+#center{
+    text-align: center;
+}

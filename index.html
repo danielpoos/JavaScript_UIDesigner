@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div><label>Mintaszöveg</label><br>
+        <input type="text" id="minta" placeholder="Árvíztűrő tükörfúrógép"><span id="mintaerror" class="error"></span><br></div>
+        <div><label>Betűméret</label><br>
+        <input type="number" id="pt" value="12" min="1"><br></div>
+        <div><label>Betűszín</label><br>
+        <input type="color" id="color" value="#000000"><br></div>
+        <div><label>Háttérszín</label><br>
+        <input type="color" id="bgcolor" value="#FFFFFF"><br></div>
+        <input type="button" id="submit" value="Alaphelyzet"><br>
+    
+    </form>
+    <div id="prediv">
+        <h2>Előnézet</h2>
+        <p id="center" ><span id="preview">Árvíztűrő tükörfúrógép</span></p>
+    </div>
+</body>
+</html>
